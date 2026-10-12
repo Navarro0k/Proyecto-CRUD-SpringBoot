@@ -3,27 +3,27 @@ package com.navarro.proyectorepaso.model;
 public class Tarea {
 
     private Long id;
-    private String nombre;
+    private String titulo;
     private boolean completada;
 
     public Long getId() {
         return id;
     }
 
-    public String getNombre() {
-        return nombre;
+    public String getTitulo() {
+        return titulo;
     }
 
     public boolean isCompletada() {
         return completada;
     }
 
-    public void setId(long id) {
+    public void setId(Long id) {
         this.id = id;
     }
 
-    public void setNombre(String nombre) {
-        this.nombre = nombre;
+    public void setTitulo(String titulo) {
+        this.titulo = titulo;
     }
 
     public void setCompletada(boolean completada) {
